@@ -95,7 +95,7 @@ const Index = () => {
           </section>
 
           <section className="text-center bg-gradient-to-r from-red-950/30 via-red-900/20 to-red-950/30 rounded-lg p-12 border border-red-900/30">
-            <Icon name="Skull" size={64} className="text-red-600 mx-auto mb-6" />
+            <Icon name="Gamepad2" size={64} className="text-red-600 mx-auto mb-6" />
             <h3 className="text-3xl font-bold mb-4">Заходи и веселись!</h3>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
               Присоединяйся к нашему сообществу и будь в курсе всех обновлений, новостей и эксклюзивного контента
