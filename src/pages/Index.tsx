@@ -163,7 +163,7 @@ const Index = () => {
                   className="w-full flex items-center gap-4 p-4 bg-gradient-to-r from-blue-600/20 to-blue-800/20 hover:from-blue-600/30 hover:to-blue-800/30 rounded-lg border border-blue-600/50 transition-all hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] group"
                 >
                   <div className="w-12 h-12 bg-[#0088cc] rounded-full flex items-center justify-center group-hover:bg-[#006ba1] transition-colors">
-                    <svg width="28" height="28" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="32" height="32" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M94.9 142.9l-8.3 40.6c1.2 0 1.7-.5 2.3-1.1l11.5-11.1 23.8 17.6c4.4 2.4 7.5 1.2 8.6-4.1l15.6-73.5.1-.2c1.4-6.2-2.2-8.6-6.5-7l-90.6 35c-6.2 2.4-6.1 5.8-.1 7.3l23.2 7.3 53.8-33.9c2.5-1.7 4.9-.8 3 .9" fill="white"/>
                     </svg>
                   </div>
