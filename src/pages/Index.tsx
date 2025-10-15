@@ -42,7 +42,7 @@ const Index = () => {
               <span className="text-red-600">Ru</span>
             </h2>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Лучшее русскоязычное сообщество во всем Gore Box
+              Лучшее русскоязычное сообщество в Gore Box
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Button 
