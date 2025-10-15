@@ -102,6 +102,7 @@ const Index = () => {
             </p>
             <Button 
               size="lg"
+              onClick={() => setIsMenuOpen(true)}
               className="bg-red-600 hover:bg-red-700 text-white px-8 py-6 text-lg font-bold"
             >
               Присоединиться
