@@ -19,20 +19,18 @@ const Index = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-red-950/20 via-black to-black pointer-events-none" />
       
       <div className="relative z-10">
-        <header className="sticky top-0 z-20 bg-black/80 backdrop-blur-sm border-b border-red-900/30">
-          <div className="container mx-auto px-4 py-6">
-            <div className="flex items-center justify-between">
-              <h1 className="text-4xl md:text-5xl font-bold">
-                <span className="text-white">Gore</span>
-                <span className="text-blue-600">Box</span>
-                <span className="text-red-600">Ru</span>
-              </h1>
-              <nav className="hidden md:flex gap-6">
-                <a href="#" className="hover:text-red-600 transition-colors">Главная</a>
-                <a href="#" className="hover:text-red-600 transition-colors">Об игре</a>
-                <a href="#" className="hover:text-red-600 transition-colors">Обновления</a>
-              </nav>
-            </div>
+        <header className="container mx-auto px-4 py-6">
+          <div className="flex items-center justify-between">
+            <h1 className="text-4xl md:text-5xl font-bold">
+              <span className="text-white">Gore</span>
+              <span className="text-blue-600">Box</span>
+              <span className="text-red-600">Ru</span>
+            </h1>
+            <nav className="hidden md:flex gap-6">
+              <a href="#" className="hover:text-red-600 transition-colors">Главная</a>
+              <a href="#" className="hover:text-red-600 transition-colors">Об игре</a>
+              <a href="#" className="hover:text-red-600 transition-colors">Обновления</a>
+            </nav>
           </div>
         </header>
 
