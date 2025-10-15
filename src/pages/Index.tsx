@@ -107,7 +107,7 @@ const Index = () => {
 
         <footer className="container mx-auto px-4 py-8 mt-16 border-t border-red-900/30">
           <div className="text-center text-gray-500">
-            <p>© 2024 GoreBox. Все права защищены.</p>
+            <p>GoreBoxRu - игровое сообщество</p>
           </div>
         </footer>
       </div>
