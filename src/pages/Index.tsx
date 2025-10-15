@@ -86,11 +86,11 @@ const Index = () => {
               <Card 
                 key={index}
                 onClick={() => window.open(feature.link, '_blank')}
-                className="bg-gradient-to-b from-red-950/40 to-black border-red-900/50 p-6 hover:border-red-600/50 transition-all hover:shadow-[0_0_20px_rgba(220,38,38,0.3)] animate-scale-in cursor-pointer"
+                className="bg-gradient-to-b from-red-950/40 to-black border-red-900/50 p-6 hover:border-red-600/50 transition-all hover:shadow-[0_0_20px_rgba(220,38,38,0.3)] hover:scale-105 animate-scale-in cursor-pointer group"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="flex flex-col items-center text-center">
-                  <div className="w-16 h-16 bg-red-600/20 rounded-full flex items-center justify-center mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-br from-red-600/30 to-red-800/30 group-hover:from-red-600/50 group-hover:to-red-800/50 rounded-full flex items-center justify-center mb-4 transition-all shadow-[0_0_15px_rgba(220,38,38,0.2)] group-hover:shadow-[0_0_25px_rgba(220,38,38,0.4)]">
                     <Icon name={feature.icon} size={32} className="text-red-600" />
                   </div>
                   <h3 className="text-xl font-bold mb-2 text-red-600">{feature.title}</h3>
