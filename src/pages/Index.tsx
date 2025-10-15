@@ -61,22 +61,26 @@ const Index = () => {
               {
                 icon: 'Palette',
                 title: 'Арты',
-                description: 'Креативные работы от сообщества'
+                description: 'Креативные работы от сообщества',
+                link: 'https://t.me/gore_boxRU/10'
               },
               {
                 icon: 'Map',
                 title: 'Карты',
-                description: 'Уникальные карты для игры'
+                description: 'Уникальные карты для игры',
+                link: 'https://t.me/gore_boxRU/116'
               },
               {
                 icon: 'Puzzle',
                 title: 'Моды',
-                description: 'Лучшие модификации для игры'
+                description: 'Лучшие модификации для игры',
+                link: 'https://t.me/gore_boxRU/116'
               }
             ].map((feature, index) => (
               <Card 
                 key={index}
-                className="bg-gradient-to-b from-red-950/40 to-black border-red-900/50 p-6 hover:border-red-600/50 transition-all hover:shadow-[0_0_20px_rgba(220,38,38,0.3)] animate-scale-in"
+                onClick={() => window.open(feature.link, '_blank')}
+                className="bg-gradient-to-b from-red-950/40 to-black border-red-900/50 p-6 hover:border-red-600/50 transition-all hover:shadow-[0_0_20px_rgba(220,38,38,0.3)] animate-scale-in cursor-pointer"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="flex flex-col items-center text-center">
