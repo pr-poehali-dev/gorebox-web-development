@@ -118,11 +118,11 @@ const Index = () => {
 
       <button
         onClick={() => setIsMenuOpen(!isMenuOpen)}
-        className="fixed right-6 top-1/2 -translate-y-1/2 z-50 bg-gradient-to-b from-red-600 to-red-800 hover:from-red-700 hover:to-red-900 text-white p-4 rounded-l-2xl shadow-[0_0_30px_rgba(220,38,38,0.6)] transition-all hover:shadow-[0_0_40px_rgba(220,38,38,0.8)] hover:pr-6"
+        className="fixed right-3 md:right-6 top-1/2 -translate-y-1/2 z-50 bg-gradient-to-b from-red-600 to-red-800 hover:from-red-700 hover:to-red-900 text-white p-3 md:p-4 rounded-l-2xl shadow-[0_0_30px_rgba(220,38,38,0.6)] transition-all hover:shadow-[0_0_40px_rgba(220,38,38,0.8)] hover:pr-6"
       >
-        <div className="flex items-center gap-3">
-          <Icon name="Users" size={24} />
-          <span className="font-bold text-lg whitespace-nowrap">Сообщество</span>
+        <div className="flex items-center gap-2 md:gap-3">
+          <Icon name="Users" size={20} className="md:w-6 md:h-6" />
+          <span className="font-bold text-base md:text-lg whitespace-nowrap">Сообщество</span>
         </div>
       </button>
 
