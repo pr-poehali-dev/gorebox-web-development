@@ -18,8 +18,8 @@ const Index = () => {
     <div className="min-h-screen bg-black text-white relative">
       <div className="absolute inset-0 bg-gradient-to-br from-red-950/20 via-black to-black pointer-events-none" />
       
-      <div className="relative z-10">
-        <header className="container mx-auto px-4 py-6">
+      <header className="sticky top-0 z-20 bg-black/95 backdrop-blur-sm border-b border-red-900/30">
+        <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <h1 className="text-4xl md:text-5xl font-bold">
               <span className="text-white">Gore</span>
@@ -32,7 +32,10 @@ const Index = () => {
               <a href="#" className="hover:text-red-600 transition-colors">Обновления</a>
             </nav>
           </div>
-        </header>
+        </div>
+      </header>
+
+      <div className="relative z-10">
 
         <main className="container mx-auto px-4 py-12">
           <section className="text-center mb-16 animate-fade-in">
