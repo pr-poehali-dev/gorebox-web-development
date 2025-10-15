@@ -21,7 +21,10 @@ const Index = () => {
       <header className="sticky top-0 z-20 bg-black/95 backdrop-blur-sm border-b border-red-900/30">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-4xl md:text-5xl font-bold">
+            <h1 
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="text-4xl md:text-5xl font-bold cursor-pointer hover:opacity-80 transition-opacity"
+            >
               <span className="text-white">Gore</span>
               <span className="text-blue-600">Box</span>
               <span className="text-red-600">Ru</span>
