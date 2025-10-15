@@ -64,9 +64,9 @@ const Index = () => {
                 description: 'Креативные работы от сообщества'
               },
               {
-                icon: 'Crosshair',
-                title: 'Оружие',
-                description: 'Огромный арсенал смертоносного оружия'
+                icon: 'Map',
+                title: 'Карты',
+                description: 'Уникальные карты для игры'
               },
               {
                 icon: 'Users',
