@@ -44,21 +44,14 @@ const Index = () => {
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
               Лучшее русскоязычное сообщество в Gore Box
             </p>
-            <div className="flex flex-wrap gap-4 justify-center">
+            <div className="flex justify-center">
               <Button 
-                size="lg" 
+                size="lg"
+                onClick={() => setIsMenuOpen(true)}
                 className="bg-red-600 hover:bg-red-700 text-white px-8 py-6 text-lg font-bold shadow-[0_0_20px_rgba(220,38,38,0.4)] hover:shadow-[0_0_30px_rgba(220,38,38,0.6)] transition-all"
               >
-                <Icon name="Download" className="mr-2" size={24} />
-                Скачать игру
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white px-8 py-6 text-lg font-bold transition-all"
-              >
-                <Icon name="Play" className="mr-2" size={24} />
-                Трейлер
+                <Icon name="Users" className="mr-2" size={24} />
+                Начать играть
               </Button>
             </div>
           </section>
