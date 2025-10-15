@@ -59,9 +59,9 @@ const Index = () => {
           <section className="grid md:grid-cols-3 gap-6 mb-16">
             {[
               {
-                icon: 'Zap',
-                title: 'Физика',
-                description: 'Реалистичная физика ragdoll и разрушений'
+                icon: 'Palette',
+                title: 'Арты',
+                description: 'Креативные работы от сообщества'
               },
               {
                 icon: 'Crosshair',
