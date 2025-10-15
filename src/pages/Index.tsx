@@ -36,6 +36,11 @@ const Index = () => {
 
         <main className="container mx-auto px-4 py-12">
           <section className="text-center mb-16 animate-fade-in">
+            <h2 className="text-5xl md:text-7xl font-black mb-6 drop-shadow-[0_0_30px_rgba(220,38,38,0.5)]">
+              <span className="text-white">Gore</span>
+              <span className="text-blue-600">Box</span>
+              <span className="text-red-600">Ru</span>
+            </h2>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
               Экстремальный физический симулятор с безграничными возможностями разрушения
             </p>
