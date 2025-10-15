@@ -69,9 +69,9 @@ const Index = () => {
                 description: 'Уникальные карты для игры'
               },
               {
-                icon: 'Users',
+                icon: 'Puzzle',
                 title: 'Моды',
-                description: 'Поддержка модификаций и кастомизации'
+                description: 'Лучшие модификации для игры'
               }
             ].map((feature, index) => (
               <Card 
