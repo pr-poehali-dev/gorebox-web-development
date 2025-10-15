@@ -19,7 +19,7 @@ const Index = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-red-950/20 via-black to-black pointer-events-none" />
       
       <div className="relative z-10">
-        <header className="container mx-auto px-4 py-6">
+        <header className="container mx-auto px-4 py-6 relative">
           <div className="flex items-center justify-between">
             <h1 className="text-4xl md:text-5xl font-bold">
               <span className="text-white">Gore</span>
