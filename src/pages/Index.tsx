@@ -68,33 +68,41 @@ const Index = () => {
                 icon: 'Palette',
                 title: 'Арты',
                 description: 'Креативные работы от сообщества',
-                link: 'https://t.me/gore_boxRU/10'
+                link: 'https://t.me/gore_boxRU/10',
+                bg: 'https://cdn.poehali.dev/projects/3805a95c-62e0-47a5-9665-4c174d6da547/files/77ffb0f1-fac0-4420-bce5-7e986bd62773.jpg'
               },
               {
                 icon: 'Map',
                 title: 'Карты',
                 description: 'Уникальные карты для игры',
-                link: 'https://t.me/gore_boxRU/116'
+                link: 'https://t.me/gore_boxRU/116',
+                bg: 'https://cdn.poehali.dev/projects/3805a95c-62e0-47a5-9665-4c174d6da547/files/c11a9f48-db8a-4821-b266-6ec1cbd1f9ab.jpg'
               },
               {
                 icon: 'Puzzle',
                 title: 'Моды',
                 description: 'Лучшие модификации для игры',
-                link: 'https://t.me/gore_boxRU/116'
+                link: 'https://t.me/gore_boxRU/116',
+                bg: 'https://cdn.poehali.dev/projects/3805a95c-62e0-47a5-9665-4c174d6da547/files/e5983b66-cc14-4ca3-8241-844b7a0025a3.jpg'
               }
             ].map((feature, index) => (
               <Card 
                 key={index}
                 onClick={() => window.open(feature.link, '_blank')}
-                className="bg-gradient-to-b from-red-950/40 to-black border-red-900/50 p-6 hover:border-red-600/50 transition-all hover:shadow-[0_0_20px_rgba(220,38,38,0.3)] hover:scale-105 animate-scale-in cursor-pointer group"
+                className="relative overflow-hidden border-red-900/50 p-6 hover:border-red-600/50 transition-all hover:shadow-[0_0_20px_rgba(220,38,38,0.3)] hover:scale-105 animate-scale-in cursor-pointer group"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="flex flex-col items-center text-center">
+                <div 
+                  className="absolute inset-0 bg-cover bg-center opacity-40 group-hover:opacity-60 transition-opacity"
+                  style={{ backgroundImage: `url(${feature.bg})` }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/70 to-black/90" />
+                <div className="relative flex flex-col items-center text-center">
                   <div className="w-16 h-16 bg-gradient-to-br from-red-600/30 to-red-800/30 group-hover:from-red-600/50 group-hover:to-red-800/50 rounded-full flex items-center justify-center mb-4 transition-all shadow-[0_0_15px_rgba(220,38,38,0.2)] group-hover:shadow-[0_0_25px_rgba(220,38,38,0.4)]">
                     <Icon name={feature.icon} size={32} className="text-red-600" />
                   </div>
                   <h3 className="text-xl font-bold mb-2 text-red-600">{feature.title}</h3>
-                  <p className="text-gray-400">{feature.description}</p>
+                  <p className="text-gray-300">{feature.description}</p>
                 </div>
               </Card>
             ))}
