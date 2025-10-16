@@ -30,9 +30,8 @@ const Index = () => {
               <span className="text-red-600">Ru</span>
             </h1>
             <nav className="hidden md:flex gap-6">
-              <a href="#" className="hover:text-red-600 transition-colors">Главная</a>
-              <a href="#" className="hover:text-red-600 transition-colors">Об игре</a>
-              <a href="#" className="hover:text-red-600 transition-colors">Обновления</a>
+              <a href="#" onClick={(e) => { e.preventDefault(); window.location.reload(); }} className="hover:text-red-600 transition-colors">Главная</a>
+              <a href="https://boosty.to/goreboxru" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition-colors">Поддержать нас</a>
             </nav>
           </div>
         </div>
