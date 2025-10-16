@@ -80,7 +80,8 @@ const Index = () => {
                 icon: 'Puzzle',
                 title: 'Моды',
                 description: 'Лучшие модификации для игры',
-                link: 'https://t.me/gore_boxRU/116'
+                link: 'https://t.me/gore_boxRU/116',
+                backgroundImage: 'https://cdn.poehali.dev/files/17e979f7-cd96-457d-88f7-2a13e9f20beb.png'
               }
             ].map((feature, index) => (
               <Card 
