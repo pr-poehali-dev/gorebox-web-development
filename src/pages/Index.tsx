@@ -67,7 +67,8 @@ const Index = () => {
                 icon: 'Palette',
                 title: 'Арты',
                 description: 'Креативные работы от сообщества',
-                link: 'https://t.me/gore_boxRU/10'
+                link: 'https://t.me/gore_boxRU/10',
+                backgroundImage: 'https://cdn.poehali.dev/files/f7bb56b3-d0a0-4416-9525-683a489f30fe.png'
               },
               {
                 icon: 'Map',
