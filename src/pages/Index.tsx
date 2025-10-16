@@ -135,12 +135,12 @@ const Index = () => {
       {isMenuOpen && (
         <>
           <div 
-            className="fixed inset-0 bg-black/50 z-40 animate-fade-in"
+            className="fixed inset-0 bg-black/80 md:bg-black/50 z-40 animate-fade-in"
             onClick={() => setIsMenuOpen(false)}
           />
-          <div className="fixed right-6 top-1/2 -translate-y-1/2 z-50 mr-48 animate-slide-in-right">
-            <Card className="bg-gradient-to-b from-gray-900 to-black border-2 border-red-600 shadow-[0_0_40px_rgba(220,38,38,0.5)] overflow-hidden">
-              <div className="p-6 space-y-4 min-w-[280px]">
+          <div className="fixed inset-0 md:inset-auto md:right-6 md:top-1/2 md:-translate-y-1/2 z-50 md:mr-48 animate-slide-in-right flex items-center justify-center p-4 md:p-0 md:block">
+            <Card className="bg-gradient-to-b from-gray-900 to-black border-2 border-red-600 shadow-[0_0_40px_rgba(220,38,38,0.5)] overflow-hidden w-full max-w-md md:max-w-none">
+              <div className="p-6 md:p-6 space-y-4 min-w-0 md:min-w-[280px]">
                 <h3 className="text-xl font-bold text-red-600 mb-4 flex items-center gap-2">
                   <Icon name="Skull" size={24} />
                   Выбери платформу
